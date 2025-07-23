@@ -6,7 +6,7 @@ import os
 from datetime import datetime, timedelta
 
 # === Load Athlete Profiles ===
-df_profiles = pd.read_csv("/Users/jamesjoyce/Metric_Dashboard/fake_athlete_profiles.csv")
+df_profiles = pd.read_csv("fake_athlete_profiles.csv")
 
 # === Page Config ===
 st.set_page_config(layout="wide")
